@@ -14,7 +14,7 @@ with st.expander("ℹ️ Bilgilendirme"):
     )
 
 # OpenAI istemcisi oluşturma
-client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+client = OpenAI(api_key=st.secrets["sk-GgrzN3vpU7V-6s0f5E2W_qsT_xw-tZO4BP449s7pqvT3BlbkFJMdXw1xsdmaVlHMgqPCAgBtr26kZQV7HNTEq129j7AA"])
 
 # Başlangıç ayarları
 if "openai_model" not in st.session_state:
